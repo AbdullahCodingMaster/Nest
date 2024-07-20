@@ -16,12 +16,10 @@ app.use(express.urlencoded({ extended: true, limit: "16kb" }));
 app.use(express.static("public"));
 app.use(cookieParser());
 
-app.get("/", (req, res) => {
-  res.json({ message: "Hello Nestian!" });
-});
+//routes import
+import userRouter from "./routes/user.routes.js";
 
-app.get("/api", (req, res) => {
-  res.json({ message: "Hello Nestian by backend!" });
-});
+//routes declaration
+app.use("/api/v1/users", userRouter);
 
 export { app };
