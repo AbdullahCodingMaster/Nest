@@ -2,7 +2,7 @@
 
 Nest is an innovative platform that connects property owners with travelers seeking short-term accommodations, similar to Airbnb. The platform facilitates the seamless rental of various property types, including apartments, houses, villas, and unique spaces. Nest aims to provide a user-friendly experience, ensuring both hosts and guests have a smooth and enjoyable process.
 
-# Setting Up the NEST MERN App
+## Setting Up the NEST MERN App
 
 This guide will walk you through the process of setting up the MERN Booking App on your local machine.
 
